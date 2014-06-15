@@ -13,7 +13,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<org.springframework.version>3.2.4.RELEASE</org.springframework.version>
 		<test.server.host>localhost</test.server.host>
-		<test.server.port>8080</test.server.port>
+		<test.server.port>8081</test.server.port>
 		<netbeans.hint.deploy.server>Tomcat</netbeans.hint.deploy.server>
 	</properties>
 
@@ -334,7 +334,7 @@
 					<jmeterLogLevel>DEBUG</jmeterLogLevel>
 					<ignoreResultFailures>true</ignoreResultFailures>
 					<includes>
-						<include>Plan de test - complet.jmx</include>
+						<include>PlanDeTestComplet.jmx</include>
 					</includes>
 				</configuration>
 			</plugin>
